@@ -1,0 +1,49 @@
+.ag-theme-balham .not-updated {
+    background-color: sandybrown !important;
+}
+/* .ag-theme-balham .sick-days-breach {
+    background-color: lightcoral !important;
+} */
+
+.ag-theme-balham .ag-row-hover{
+    cursor: pointer;
+    background-color: #e9eff9 !important;
+}
+
+.ag-theme-balham .ag-header-cell-label {
+   justify-content: center;
+   text-align: center;
+}
+
+.ag-header-cell-label .ag-header-cell-text {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ag-header-cell{
+    background-color: #e9eff9;
+}
+
+.ag-header-group-cell{
+  background-color: #dce7fa;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.ag-header-group-cell-label{
+  justify-content: center;
+}
+
+.ag-group-cell{
+  background-color: black;
+}
+
+.darkGreyBackground {
+  background-color: #e9eff9 !important;
+  /* color: #fff; */
+}
+
+/* .lock-unpinned {
+  background:#f0f5f8;
+  border-right: black;
+} */
