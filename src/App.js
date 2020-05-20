@@ -1,11 +1,8 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import DataTable from './Components/DataTable';
 import Select from 'react-select';
-
-import XLSX from 'xlsx';
-import {OutTable, ExcelRenderer} from 'react-excel-renderer';
+import {ExcelRenderer} from 'react-excel-renderer';
 
 
 class App extends Component {
@@ -96,7 +93,6 @@ componentDidMount(){
           </div>
         </div>
         <div className="Info">
-        <input type="File" name = "File" onChange = {this.fileHandler}/>
           <Select
           placeholder="Select..."
           value={this.state.selectedOption}

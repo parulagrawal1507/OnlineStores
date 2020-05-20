@@ -1,7 +1,8 @@
 {
-  "name": "grocery",
+  "name": "OnlineStores",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://parulagrawal1507.github.io/OnlineStores",
   "dependencies": {
     "@ag-grid-community/all-modules": "^22.1.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "ag-grid-community": "^22.1.1",
     "ag-grid-react": "^22.1.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-excel-renderer": "^1.1.0",
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
